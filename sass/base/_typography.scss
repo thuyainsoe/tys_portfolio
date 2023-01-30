@@ -8,3 +8,20 @@ body {
     background-image: $color-gradient;
     padding: 3rem;
 }
+
+.heading-primary {
+    
+    &--main {
+        font-size: 5rem;
+        color: $color-primary;
+    }
+
+    &--sub {
+        font-size: 3rem;
+        color: $color-primary-light;
+    }
+}
+
+.paragraph {
+    font-size: $default-font-size;
+}

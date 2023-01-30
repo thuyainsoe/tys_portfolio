@@ -1,0 +1,19 @@
+.main {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 120rem;
+    margin: auto;
+    padding: 12rem 2rem;
+
+    .hero {
+        width: 50%;
+    }
+
+    .heroimg {
+        &__profileimg {
+            width: 37rem;
+            border-radius: 40px;
+        }
+    }
+}

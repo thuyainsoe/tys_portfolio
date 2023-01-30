@@ -21,6 +21,20 @@ body {
   background-image: linear-gradient(to right, #D3CAE2, #E6C17A);
   padding: 3rem; }
 
+.heading-primary--main {
+  font-size: 5rem;
+  color: #404041; }
+
+.heading-primary--sub {
+  font-size: 3rem;
+  color: #4d4d4f; }
+
+.paragraph {
+  font-size: 1.8rem; }
+
+.u-margin-top-small {
+  margin-top: 2.3rem !important; }
+
 .navigation__logo {
   font-size: 2.5rem;
   text-decoration: none;
@@ -41,6 +55,12 @@ body {
       font-size: 1.9rem;
       color: #4d4d4f;
       text-decoration: none; }
+    .navigation__nav--item::after {
+      content: "";
+      display: block;
+      width: 100%;
+      height: .25rem;
+      background-color: transparent; }
     .navigation__nav--item:hover::after {
       content: "";
       display: block;
@@ -55,7 +75,7 @@ body {
 .social__nav {
   list-style-type: none;
   display: flex;
-  gap: 4rem; }
+  gap: 2rem; }
 
 .header {
   display: flex;
@@ -63,3 +83,16 @@ body {
   align-items: center;
   width: 120rem;
   margin: 0 auto; }
+
+.main {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 120rem;
+  margin: auto;
+  padding: 12rem 2rem; }
+  .main .hero {
+    width: 50%; }
+  .main .heroimg__profileimg {
+    width: 37rem;
+    border-radius: 40px; }
