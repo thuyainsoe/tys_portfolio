@@ -1,0 +1,49 @@
+.navigation {
+    &__logo {
+        font-size: 2.5rem;
+        text-decoration: none;
+        display: inline-flex;
+        margin-left: 2rem;
+        gap: 1rem;
+        color: $color-primary;
+        &--mylogo {
+            width: 2.3rem;
+        }
+    }
+
+
+    &__nav {
+        display: flex;
+        list-style-type: none;
+
+        &--item {
+            display: inline-block;
+            padding: 1rem 2rem;
+
+            &--link {
+                font-size: 1.9rem;
+                color: $color-primary-light;
+                text-decoration: none;
+            }
+            
+            &:hover {
+                &::after {
+                    content: "";
+                    display: block;
+                    width: 100%;
+                    height: .25rem;
+                    background-color: $color-white;
+                }
+            }
+
+            &:hover &--link {
+                color: $color-white;
+            }
+
+        }
+
+        &--item:not(:first-child) {
+            margin-left: .5rem;
+        }
+    }
+}

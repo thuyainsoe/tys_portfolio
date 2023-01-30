@@ -1,14 +1,3 @@
-$color-primary :  #404041;
-$color-secondary: #F6EDE3;
-$color-gradient: linear-gradient(to right, #D3CAE2 , #E6C17A);
-
-$color-white : #fff;
-$color-black : #000;
-
-body {
-    background-image: $color-gradient;
-}
-
 @import "abstracts/functions";
 @import "abstracts/mixins";
 @import "abstracts/variables";
@@ -17,6 +6,9 @@ body {
 @import "base/base";
 @import "base/typography";
 @import "base/utilities";
+
+@import "components/navigation";
+@import "components/social";
 
 @import "layout/header";
 @import "layout/grid";
