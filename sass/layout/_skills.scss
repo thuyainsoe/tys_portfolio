@@ -1,0 +1,50 @@
+.skills {
+    width: 120rem;
+    margin: auto;
+    padding: 2rem;
+
+    &__title {
+        position: relative;
+        &::after {
+            content: "";
+            position: absolute;
+            display: block;
+            width: 4rem;
+            height: .3rem;
+            background-color: $color-blue;
+            top: 5rem;
+            left: 4rem;
+        }
+    }
+
+    &__container {
+        width: 100%;
+        display: flex;
+        margin-bottom: 2rem;
+        flex-wrap: wrap;
+        gap: 2rem;
+
+        &--card {
+            display: flex;
+            align-items: center;
+            padding: 2.5rem;
+            width: 37.2rem;
+            height: 10rem;
+            gap: 2rem;
+            border-radius: .5rem;
+            border: 1px solid $color-secondary;
+            border-left: .5rem solid $color-blue;
+            color: $color-black;
+
+            &-img {
+                width: 5.5rem;
+                // animation: scale 1s infinite;
+            }
+
+            &-title {
+                font-size: 2rem;
+                font-weight: bold;
+            }
+        }
+    }
+}
