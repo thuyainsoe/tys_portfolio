@@ -1,8 +1,12 @@
 .header {
+    position: sticky;
+    top: 0;
+    background-color: white;
+    z-index: 2;
     display: flex;
     justify-content: space-between;
     align-items: center;
-    width: 120rem;
+    width: $container-width;
     padding-right: 2rem;
     margin: 0 auto;
     border-bottom: 1px solid $color-secondary;

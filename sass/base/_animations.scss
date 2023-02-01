@@ -67,3 +67,45 @@
         transform: scale(1);
     }
 }
+
+@keyframes backgroundColorChange {
+    0% {
+        transform: translateX(-3rem) scale(1.03);
+        opacity: 0.5;
+    }
+
+    100% {
+        transform:  translateX( 0rem) scale(1);
+        opacity: 1;
+    }
+}
+
+@keyframes backgroundColorChange2 {
+    0% {
+        transform: translateX(3rem) scale(1.03);
+        opacity: 0.5;
+    }
+
+    100% {
+        transform:  translateX(0rem) scale(1);
+        opacity: 1;
+    }
+}
+
+// @keyframes fadeOut {
+//     0% {
+//         opacity: 1;
+//     }
+//     100% {
+//         opacity: 0;
+//     }
+// }
+
+// @keyframes fadeIn {
+//     0% {
+//         opacity: 0;
+//     }
+//     100% {
+//         opacity: 1;
+//     }
+// }

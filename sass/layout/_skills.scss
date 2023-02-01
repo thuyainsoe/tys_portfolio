@@ -1,5 +1,5 @@
 .skills {
-    width: 120rem;
+    width: $container-width;
     margin: auto;
     padding: 2rem;
 
@@ -33,17 +33,46 @@
             gap: 2rem;
             border-radius: .5rem;
             border: 1px solid $color-secondary;
-            border-left: .5rem solid $color-blue;
+            // border-left: .5rem solid $color-blue;
             color: $color-black;
+            transition: all .5s ease-in-out;
 
             &-img {
                 width: 5.5rem;
-                // animation: scale 1s infinite;
             }
 
             &-title {
                 font-size: 2rem;
                 font-weight: bold;
+            }
+
+            &:hover {
+                transform: scale(1.01);
+                &::after {
+                    content: "";
+                    border-top: 2px solid $color-blue;
+                    border-bottom: 2px solid $color-blue;
+                    border-left: 2px solid $color-blue;
+                    width: 50%;
+                    left: 0;
+                    top: 0;
+                    height: 100%;
+                    position: absolute;
+                    animation: backgroundColorChange .3s ease-in;
+                }
+
+                &::before {
+                    content: "";
+                    border-top: 2px solid $color-blue;
+                    border-bottom: 2px solid $color-blue;
+                    border-right: 2px solid $color-blue;
+                    width: 50%;
+                    right: 0;
+                    top: 0;
+                    height: 100%;
+                    position: absolute;
+                    animation: backgroundColorChange2 .3s ease-in;
+                }
             }
         }
     }

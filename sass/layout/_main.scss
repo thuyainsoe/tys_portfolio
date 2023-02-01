@@ -2,7 +2,7 @@
     display: flex;
     justify-content: space-between;
     align-items: center;
-    width: 120rem;
+    width: $container-width;
     margin: auto;
     padding: 12rem 2rem;
     animation: moveInLeft 2s ease-in-out;
