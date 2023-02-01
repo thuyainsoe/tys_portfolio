@@ -1,6 +1,7 @@
 body {
     font-size: "Lato", sans-serif;
     font-weight: 400;
+    background-color: black;
     /*
         font-size: 16px;
      */
@@ -11,14 +12,9 @@ body {
 .heading-primary {
     
     &--main {
-        font-size: 5rem;
-        color: $color-primary;
-        // animation-name: moveInLeft ;
-        // animation-duration: 1s;
-        // animation-timing-function: ease-out;
-
+        font-size: 6.5rem;
         &-neon {
-            color: $color-blue;
+            color: $color-main-secondary;
         }
     }
     
@@ -26,11 +22,12 @@ body {
         font-size: 3.5rem;
         color: $color-primary;
         margin-bottom: 6rem;
+
     }
 
     &--sub {
         font-size: 3rem;
-        color: $color-primary-light;
+        color: $color-white;
         // animation: moveInRight 1s ease-in-out;
     }
 
@@ -38,4 +35,5 @@ body {
 
 .paragraph {
     font-size: $default-font-size;
+    color: $color-white;
 }

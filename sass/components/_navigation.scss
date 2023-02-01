@@ -5,7 +5,7 @@
         display: inline-flex;
         margin-left: 2rem;
         gap: 1rem;
-        color: $color-primary;
+        color: $color-white;
         &--mylogo {
             width: 2.3rem;
         }
@@ -22,7 +22,7 @@
 
             &--link {
                 font-size: 1.9rem;
-                color: $color-primary-light;
+                color: $color-white;
                 text-decoration: none;
             }
 
@@ -40,12 +40,12 @@
                     display: block;
                     width: 100%;
                     height: .25rem;
-                    background-color: $color-blue;
+                    background-color: $color-main-secondary;
                 }
             }
 
             &:hover &--link {
-                color: $color-blue;
+                color: $color-main-secondary;
             }
 
         }
