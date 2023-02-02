@@ -6,6 +6,29 @@
     margin: auto;
     padding: 12rem 2rem;
     animation: moveInTop 2s ease-in-out;
+    position: relative;
+
+    // &::after {
+    //     content: '';
+    //     position: absolute;
+    //     width: 90px;
+    //     height: 90px;
+    //     bottom: 18px;
+    //     right: 0px;
+    //     border-bottom: 3px solid $color-main-secondary;
+    //     border-right: 3px solid $color-main-secondary;
+    // }
+
+    // &::before {
+    //     content: '';
+    //     position: absolute;
+    //     width: 90px;
+    //     height: 90px;
+    //     top: 18px;
+    //     left: 0px;
+    //     border-top: 3px solid $color-main-secondary;
+    //     border-left: 3px solid $color-main-secondary;
+    // }
 
     .hero {
         width: 50%;

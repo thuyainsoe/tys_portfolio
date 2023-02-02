@@ -1,7 +1,7 @@
 .skills {
     width: $container-width;
     margin: auto;
-    padding: 2rem;
+    padding: 7rem 2rem;
 
     &__title {
         position: relative;
@@ -32,7 +32,7 @@
             height: 10rem;
             gap: 2rem;
             border-radius: .5rem;
-            border: 1px solid $color-secondary;
+            border: 1px solid $color-main-secondary;
             color: $color-white;
             transition: all .5s ease-in-out;
 

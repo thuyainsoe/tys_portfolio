@@ -15,6 +15,7 @@ body {
         font-size: 6.5rem;
         &-neon {
             color: $color-main-secondary;
+            position: relative;
         }
     }
     
