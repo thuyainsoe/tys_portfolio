@@ -28,14 +28,14 @@
             display: flex;
             align-items: center;
             height: 40rem;
-            border: 1px solid $color-main-secondary;
+            border: 1px solid $color-main-secondary;    
             border-radius: 2rem;
             padding: 3rem;
             transition: all .3s;
 
             &:hover {
                 box-shadow: 4px 7px 10px $color-main-secondary;
-                transform: translateY(-5px);
+                transform: translateY(-2px);
                 border: none;
             }
 
@@ -81,7 +81,7 @@
                         border-radius: 50%;
 
                         &:hover {
-                            border-left-color: red;
+                            animation: rotateCircle .5s infinite;
                         }
                     }
                 }

@@ -1,0 +1,97 @@
+.contact {
+    width: $container-width;
+    margin: auto;
+    padding: 7rem 2rem;
+
+    &__title {
+        position: relative;
+        &::after {
+            content: "";
+            position: absolute;
+            display: block;
+            width: 4rem;
+            height: .3rem;
+            background-color: $color-main-secondary;
+            top: 5rem;
+            left: 7.6rem;
+        }
+    }
+
+    &__detail {
+        width: 30rem;
+        display: flex;
+        flex-direction: column;
+        gap: 2.7rem;
+        &--card {
+            width: 100%;
+            display: flex;
+            align-items: center;
+            gap: 2rem;
+
+
+            &--about {
+                &-title {
+                    font-size: 2rem;
+                    color: $color-main-secondary
+                }
+
+                &-paragraph {
+                    font-size: 1.5rem;
+                    color: $color-white;
+                    font-weight: bold;
+                }
+            }
+        }
+
+        
+    }
+
+    &__form {
+        width: 800px;
+        height: 250px;
+
+        &--title {
+            font-size: 2.5rem;
+            color: $color-white;
+        }
+
+        &--formcontainer {
+            position: relative;
+            margin-top: 20px;
+            &-formgroup {
+                margin-bottom: 1rem;
+                label {
+                    font-size: 1.5rem;
+                    color: $color-white;
+                }
+
+                input {
+                    width: 37rem;
+                    height: 3rem;
+                }
+            }
+
+            &-textarea {
+                label {
+                    font-size: 1.5rem;
+                    color: $color-white;
+                }
+                position: absolute;
+                right: 7.6rem;
+                top: 0;
+            }
+
+            &-button {
+                padding: 1rem 2rem;
+                margin-top: 1.6rem;
+                background-color: $color-main-secondary;
+                border: none;
+            }
+        }
+    }
+}
+
+.d-flex-contact {
+    display: flex;
+    gap: 10rem;
+}

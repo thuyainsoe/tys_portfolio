@@ -14,3 +14,27 @@ window.addEventListener("scroll", function() {
         header.style.paddingTop = '0px'
     }
 });
+
+// class AnimatedElement {
+//   constructor(elementId) {
+//     this.element = document.querySelector(elementId);
+//     this.observer = new IntersectionObserver(this.handleIntersection.bind(this));
+//     this.observer.observe(this.element);
+//   }
+
+//   handleIntersection(entries) {
+//     entries.forEach((entry) => {
+//       if (entry.isIntersecting) {
+//         this.element.style.animation = 'scrollDownAnimation 1s ease-in-out';
+//         this.element.style.opacity = '1';
+//       } else {
+//         this.element.style.animation = 'scrollUpAnimation 1s ease-in-out';
+//         this.element.style.opacity = '0';
+//       }
+//     });
+//   }
+// }
+
+// const skills = new AnimatedElement('#skills');
+// const projects = new AnimatedElement('#projects');
+// const education = new AnimatedElement('#education');
